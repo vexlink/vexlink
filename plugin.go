@@ -1,6 +1,7 @@
 package vexlink
 
 type Plugin struct {
-	Name  string
-	Nodes []Node
+	Name    string
+	Version string
+	Nodes   []Node
 }
